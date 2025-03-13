@@ -1,35 +1,41 @@
 # Generative AI - Medical Chatbot Development
 
-This project is a simple Medical Chatbot that helps users get answers to medical-related queries. It processes and understands medical information from uploaded documents and provides relevant responses.
-
-## Features
-
-- Users can ask medical questions and get instant responses.
-- Supports text-based queries about diseases, symptoms, and treatments.
-- Uses a user-friendly web interface.
-- Stores and retrieves medical data for better accuracy.
+This project is a **Medical Chatbot** that helps users get answers to medical-related queries using AI. It reads and understands medical documents, providing relevant responses.
 
 ## How It Works
 
-1. **Data Processing:** The chatbot reads medical documents and converts the content into useful data.
-2. **Storage:** It organizes the information in a structured way for quick access.
-3. **Question & Answer:** When a user asks a question, the chatbot searches for relevant information and provides an answer.
-4. **Web Interface:** Users interact with the chatbot through a simple and clean webpage.
+1. **Loads Data** – The chatbot reads medical PDFs or other text data.
+2. **Creates Vectors** – It converts text into a format AI can understand.
+3. **Stores Data** – The processed data is saved for quick searching.
+4. **User Interaction** – A user-friendly web interface allows users to ask medical questions.
+5. **Generates Responses** – AI processes the question and provides an answer based on medical data.
 
-## Usage
+## Features
 
-1. Open the chatbot’s web page.
-2. Type your medical question in the chatbox.
-3. The chatbot processes your question and provides an answer.
-4. You can ask follow-up questions or explore more medical topics.
+✔️ Reads and understands medical documents  
+✔️ Provides instant medical-related answers  
+✔️ Simple and easy-to-use chat interface  
+✔️ Stores information for faster responses  
+✔️ Can be expanded with more medical data  
+
+## Technologies Used
+
+- **OpenAI LLM** – AI model for generating responses  
+- **LangChain** – Helps process and retrieve information  
+- **Pinecone** – Stores and manages AI-friendly data  
+- **Flask** – Runs the chatbot as a web application  
+- **GitHub** – Version control and collaboration  
+
+## How to Use
+
+1. Start the chatbot.
+2. Ask medical-related questions in the chat interface.
+3. Get AI-generated responses based on medical documents.
 
 ## Future Enhancements
 
-- **Better Accuracy:** Improve the chatbot’s responses with more data.
-- **Voice Input:** Allow users to ask questions using voice commands.
-- **Mobile-Friendly:** Make the chatbot work smoothly on mobile devices.
-- **Cloud Deployment:** Deploy the chatbot online for easy access.
+🔹 Deploy on the cloud for public access  
+🔹 Improve accuracy with more medical data  
+🔹 Add voice input and response features  
+🔹 Support multiple languages  
 
-## Contribution
-
-If you have suggestions or want to improve this chatbot, feel free to contribute! You can share feedback, report issues, or enhance the chatbot’s features.
