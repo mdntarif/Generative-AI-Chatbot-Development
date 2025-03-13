@@ -22,7 +22,8 @@ This project is a **Medical Chatbot** that helps users get answers to medical-re
 
 - **OpenAI LLM** – AI model for generating responses  
 - **LangChain** – Helps process and retrieve information  
-- **Pinecone** – Stores and manages AI-friendly data  
+- **Pinecone** – Stores and manages AI-friendly data
+- **Hugging Face** - For embedding medical text.
 - **Flask** – Runs the chatbot as a web application  
 - **GitHub** – Version control and collaboration  
 
